@@ -1,0 +1,96 @@
+body{
+    color: rgb(19, 18, 18);
+    text-align: center;
+    background-color: rgb(94, 186, 214);
+    background-image: url("backdrop.jpg");
+    font-size: 20px;
+}
+h1{
+    color: rgb(71, 71, 71);
+}
+
+h2{
+    color: rgb(126, 122, 122);
+}
+
+.intro
+{
+    text-decoration-color: rgb(185, 77, 95);
+} 
+
+img{
+    border-radius: 8px;
+    padding: 5px;
+    width: auto;
+    float: center;
+    padding: 50px;
+    
+
+} 
+.gallery-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+/*navigation bar*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  
+  }
+
+  /*gallery*/
+  div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+
+  
+div.gallery:hover {
+    border: 20px solid #777;
+  }
+  
+  div.gallery img {
+    
+    width: 90%;
+    height: auto;
+    padding: 25px;
+  }
+  /* gallery/ descriptions*/
+
+  div.desc {
+    padding: 50px;
+    text-align: center;
+  }
+
+  div.gallery {
+    margin: 80px;
+    border: 1px solid #ccc;
+    float: middle;
+    width: 310px;
+  }
